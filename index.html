@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Form Part2 Task</title>
+</head>
+<body>
+    <form>
+        <fieldset><legend>Final Task of HTML</legend>
+    <p>Choose your state</p>    
+    <input type="radio" id="state" name="state" value="Andhra Pradesh"/>
+    <label for="state" >Andhra Pradesh</label><br>
+     <input type="radio" id="state" name="state" value="Telangana"/>
+     <label for="state">Telangana</label>
+     <p>choose your districts of both Temporay and Permanent </p>
+     <input type="checkbox"id="district1" name="district1" value="kurnool"/>
+     <label for="district1">Kurnool</label><br>
+     <input type="checkbox" id="district2" name="district2" value="Anantapur"/>
+     <label for="district2">Anantapur</label><br>
+     <input type="checkbox" id="district3" name="district3" value="Chittor"/>
+     <label for ="district3" >chittor</label><br><br>
+     <label for="diffcars" >choose a car</label>
+     <select name="cars" id="diffcars" size="1">
+        <option >Nano</option>
+        <option>Mahindra</option>
+        <option>Lamborghini</option>  
+     </select><br><br>
+     <label for ="Menu" >Choose a Menu</label>
+     <select name="restuarantmenus" id="Menu">
+        <optgroup label="NonVeg">
+           <option> Chicken Biryani</option>
+           <option> Mutton Biryani</option>
+           <option> chapati with mutton paya</option>
+        </optgroup>
+        <optgroup label="Veg">
+            <option>Rice,dal and curd</option>
+            <option>chapati and brinjal</option>
+        </optgroup>
+     </select><br>
+     <p>Short Summary about yourself</p>
+     <textarea name="short" rows="5" cols="20"> A Passionate Computer Science Graduate looking for a software engineer role</textarea><br>
+     <p>HTML Entities, In html some characters are reserved which means it has a specific meaning to the browser that differs from normal symbols,then we can differentiate those symbols with the help of html entities</p>
+     <!-- To display a less than image in a html we use &lt; or &#60;
+      -->
+     <p> To display a less than and greater than in a html as follows : &lt; , &gt;.</p>
+     <p> Displaying font awesome icons </p> 
+     <i class="fa fa-car"></i>
+     <i class="fa fa-car" style="font-size:48px;"></i>
+     <i class="fa fa-car" style="font-size:60px;color:red;"></i><br>
+     <input type="submit"/>
+    </fieldset>
+  </form>
+</body>
+</html>
